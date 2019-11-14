@@ -1,0 +1,127 @@
+.selector-BT{
+    border: 2px solid red;
+}
+.text-BT{
+    border: 2px solid red;
+}
+.box-model-BT{
+    border: 2px solid red;
+}
+.display-BT{
+  border: 2px solid red;
+}
+/* ---------------box-model-BT------------------------ */
+  /* ------------------------------------------------------- */
+.box-1{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    border-style: solid;
+    border-width: 3px;
+    /*  code vào phần bên dưới  */
+  }
+  .box-2{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: chocolate;
+  }
+  .box-3{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    border: 10px solid green;
+    border-radius: 10px;
+  }
+  .text-box1{
+    background: wheat;
+    width:400px;
+    border: 2px solid green; 
+  /*  Code vào phần bên dưới  */
+  }
+  .text-box2{
+    background: wheat;
+    width:400px;
+    border: 2px solid green; 
+  /*  Code vào phần bên dưới  */
+  }
+  .text-box3{
+    background: wheat;
+    width:400px;
+    border: 2px solid green; 
+  /*  Code vào phần bên dưới  */
+  }
+  .text-box1 p{
+    margin-left: 40px;
+   
+  }
+  .text-box2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .text-box3 p{
+      margin: 45px 40px;
+  }
+  #a >div {
+    background:wheat;
+    /*  code vào phần bên dưới   */
+     margin-left: 40px;
+  }
+  #a{
+    /* Không code vào đây */
+    border:1px solid black
+  }
+  #a-2 >div {
+    background:wheat;
+    /*  code vào phần bên dưới   */
+    margin-left: 40px;
+    margin-right: 60px;
+  }
+  #a-2{
+    /* Không code vào đây */
+    border:1px solid black
+  }
+  #a-3 >div {
+    background:wheat;
+    /*  code vào phần bên dưới   */
+    margin: 50px 60px 50px 40px;
+  }
+  #a-3{
+    /* Không code vào đây */
+    border:1px solid black
+  }
+   /* ---------------display-BT------------------------ */
+  /* ------------------------------------------------------- */
+  .display-1 p{ 
+    background-color: red;
+    display: inline; 
+  }
+  #span1{
+    background: red;
+  }
+  #span2{
+    background:yellow;
+    display: inline-block;
+    width: 500px;
+  }
+  .display-3 span{
+    background: red;
+    display: inline-block;
+    width: 500px;
+  }
+  .display-3 div{
+    background: blue;
+    display: block;
+    width: 500px;
+  }
